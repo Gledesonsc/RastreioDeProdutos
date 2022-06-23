@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prova2.MainPage"
+             BackgroundImageSource="roxo2">
+    
+    <!--Pagina de Login-->
+    <StackLayout>
+            <!--Front-end-->      <!--Front-end-->      <!--Front-end-->     <!--Front-end-->
+            <!--..........................................................................-->
+            <!-- Logo ActivHouse -->
+            <Image
+                Source="./resources/drawable/Logo4.png"
+                HeightRequest="150"
+                Margin="0,90,0,15"
+            ></Image>
+            <!-- Logo ActivHouse -->
+            <!--..........................................................................-->
+            <!--Entrar Email-->
+            <Entry 
+                x:Name="etEmail"
+                Margin="30,0,30,0"
+                Keyboard="Email"
+                Placeholder="usuário ou email"
+                TextColor="#220A36"
+                FontAttributes="Bold"
+                PlaceholderColor="#220A36"
+                HorizontalTextAlignment="Center"
+                FontSize="Large"
+            ></Entry>
+            <!--Entrar Email-->
+            <!--..........................................................................-->
+            <!-- Imagem usuario -->
+            <Image
+                Source="./resources/drawable/user.png"
+                HeightRequest="30"
+                Margin="0,-49,280,30"
+            ></Image>
+            <!-- Imagem usuario -->
+            <!--..........................................................................-->
+            <!--Entrar Senha-->
+            <Entry
+                x:Name="etSenha"
+                Margin="30,0,30,0"
+                Keyboard="Text"
+                IsPassword="True"
+                Placeholder="senha"
+                TextColor="#220A36"
+                FontAttributes="Bold"
+                PlaceholderColor="#220A36"
+                HorizontalTextAlignment="Center"
+                FontSize="Large"
+            ></Entry>
+            <!--Entrar Senha -->
+            <!--..........................................................................-->
+            <!-- Imagem do cadeado -->
+            <Image
+                Source="./resources/drawable/loke.png"
+                HeightRequest="30"
+                Margin="0,-49,280,30"
+            ></Image>
+            <!-- Imagem do cadeado -->
+            <!--..........................................................................-->
+            <!--Botao Entrar-->
+            <Button
+                x:Name="btnEntrar"
+                BackgroundColor="#B656CE"
+                CornerRadius="50"
+                Margin="100,0,100,0"
+                Text="Entrar"
+                FontFamily="Roboto"
+                FontAttributes="Bold"
+                TextColor="White"
+                Clicked="btnEntrar_Clicked"
+            ></Button>
+            <!--Botao Entrar-->
+            <!--..........................................................................-->
+            <!--ou faça login com-->
+            <Label
+                Text="ou faça login com"
+                HorizontalTextAlignment="Center"
+                TextColor="#B656CE"
+                Margin="0,40,0,0"
+            ></Label>
+            <!--ou faça login com-->
+            <!--..........................................................................-->
+            <!-- GitHub -->
+            <ImageButton 
+                Source="./resources/drawable/git.png"
+                HeightRequest="50"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                BackgroundColor="#220A36"
+                VerticalOptions="CenterAndExpand"
+                Margin="0,0,60,0"
+                Clicked="ImageButton_Clicked_1"
+            ></ImageButton>
+            <!-- GitHub -->
+            <!--..........................................................................-->
+            <!-- Google -->
+            <ImageButton 
+                Source="./resources/drawable/go.png"
+                HeightRequest="50"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                BackgroundColor="#220A36"
+                VerticalOptions="CenterAndExpand"
+                Margin="60,-90,0,0"
+                Clicked="ImageButton_Clicked"
+            ></ImageButton>
+            <!-- Google -->
+            <!--..........................................................................-->
+            <!--Botao Inscrever-Se-->
+            <ImageButton 
+                Source="./resources/drawable/InscreverSe"
+                HeightRequest="17"
+                HorizontalOptions="Center"
+                x:Name="btnCadastrar"
+                Margin="100,15,100,75"
+                Clicked="btnCadastrar_Clicked"
+                BorderColor="Transparent"
+                BackgroundColor="Transparent"
+            ></ImageButton>
+            <!--Botao Inscrever-Se-->
+            <!--..........................................................................-->
+            <!--Front-end-->      <!--Front-end-->      <!--Front-end-->     <!--Front-end-->
+        
+    </StackLayout>
+    <!--Pagina de Login-->
+</ContentPage>

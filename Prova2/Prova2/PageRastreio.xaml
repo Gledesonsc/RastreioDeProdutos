@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prova2.PageRastreio"
+              BackgroundImageSource="roxo1">
+    <ContentPage.Content>
+        
+        <!--Pagina de Rastreio-->
+        <StackLayout HorizontalOptions="Center">
+            
+            <!--Front-end-->      <!--Front-end-->      <!--Front-end-->     <!--Front-end-->
+            <!--..........................................................................-->
+            <!-- -->
+            <!-- Logo ActivHouse -->
+            <Image
+                Source="./resources/drawable/car1.png"
+                HeightRequest="120"
+                Margin="0,90,0,15"
+            ></Image>
+            <!-- Logo ActivHouse -->
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- Inserção do Código de Rastreio -->
+            <Entry
+                x:Name="entRastreio" 
+                Placeholder="Localize sua encomenda"
+                TextColor="#fff" 
+                HorizontalTextAlignment="Center"
+            ></Entry>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- -->
+            <Label 
+                Text="Rastreio:" 
+                FontSize="25" 
+                TextColor="#220A36"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+            ></Label>
+            <!--..........................................................................-->
+            <!--Rastreio-->
+            <Label 
+                x:Name="lblRastreio" 
+                TextColor="Azure" 
+                FontSize="20" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+            ></Label>
+            <!--Rastreio-->
+            <!--..........................................................................-->
+            <!--Rastreio atualização-->
+            <Label 
+                Text="Ultima atualização:" 
+                FontSize="25" 
+                TextColor="#220A36"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+            ></Label>
+            <!--Rastreio atualização-->
+            <!--..........................................................................-->
+            <!--Rastreio Estado-->
+            <Label 
+                x:Name="lblEstado" 
+                FontSize="20" 
+                TextColor="Azure" 
+                FontAttributes="Bold" 
+                HorizontalTextAlignment="Center"
+            ></Label>
+            <!--Rastreio Estado-->
+            <!--..........................................................................-->
+            <!--Rastreio Status-->
+            <Label 
+                Text="Status:" 
+                FontSize="25" 
+                TextColor="#220A36" 
+                FontAttributes="Bold" 
+                HorizontalTextAlignment="Center"
+            ></Label>
+            <!--Rastreio Status-->
+            <!--..........................................................................-->
+            <!--Rastreio Cidade-->
+            <Label 
+                x:Name="lblCidade" 
+                FontSize="20" 
+                TextColor="Azure" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+            ></Label>
+            <!--Rastreio Cidade-->
+            <!--..........................................................................-->
+            <!-- Butao de busca com a lupa-->
+            <ImageButton
+                x:Name="btn"
+                Source="./resources/drawable/buscar.png"
+                HeightRequest="30"
+                CornerRadius="50"
+                HorizontalOptions="Center"
+                Margin="350,-285,0,0"
+                Clicked="btn_Clicked"
+            ></ImageButton>
+            <!-- Butao de busca com a lupa-->
+            
+        </StackLayout>
+        <!--Pagina de Rastreio-->
+        
+    </ContentPage.Content>
+</ContentPage>

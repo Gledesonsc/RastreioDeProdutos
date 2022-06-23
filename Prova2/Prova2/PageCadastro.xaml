@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prova2.PageCadastro"
+             BackgroundImageSource="roxo1">
+    <ContentPage.Content>
+
+        <!--Cadastro-->
+        <StackLayout HorizontalOptions="CenterAndExpand" >
+
+            <!--..........................................................................-->
+
+            <!-- Logo ActivHouse -->
+            <Image
+                Source="./resources/drawable/user.png"
+                HeightRequest="120"
+                Margin="0,90,0,15"
+            ></Image>
+            <!-- Logo ActivHouse -->
+
+        
+            <!--..........................................................................-->
+            <!-- -->
+            <Label
+                Text="Faça seu Cadastro"
+                HorizontalTextAlignment="Center"
+                FontSize="30"
+                TextColor="#220A36"
+            ></Label>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- -->
+            <Entry
+                x:Name="etNome"
+                HorizontalTextAlignment="Center"
+                Placeholder="Nome"
+                PlaceholderColor="#fff"
+                Keyboard="Text"
+            ></Entry>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- -->
+            <Entry
+                x:Name="etEmail"
+                HorizontalTextAlignment="Center"
+                Placeholder="E-mail"
+                PlaceholderColor="#fff"
+                Keyboard="Email"
+            ></Entry>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- -->
+            <Entry
+                x:Name="etSenha"
+                HorizontalTextAlignment="Center"
+                Placeholder="Senha"
+                PlaceholderColor="#fff"
+                Keyboard="Text"
+                IsPassword="True"
+            ></Entry>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- -->
+            <Entry
+                x:Name="etConfSenha"
+                HorizontalTextAlignment="Center"
+                Placeholder="Confirma senha"
+                PlaceholderColor="#fff"
+                Keyboard="Text"
+                IsPassword="True"
+            ></Entry>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- -->
+            <Button
+                BackgroundColor="#220A36"
+                x:Name="Button"
+                Text="cadastrar"
+                TextColor="#B656CE"
+                Margin="100,0,100,0"
+                CornerRadius="50"
+                Clicked="Button_Clicked_1"
+            ></Button>
+            <!-- -->
+            <!--..........................................................................-->
+            <!-- Texto Ou -->
+            <Label
+                Text="Ou"
+                TextColor="#220A36"
+                HorizontalTextAlignment="Center"
+                FontSize="15"
+                FontAttributes="Bold"
+            ></Label>
+            <!-- Texto Ou -->
+            <!--..........................................................................-->
+            <!-- GitHub -->
+            <ImageButton 
+                Source="./resources/drawable/git.png"
+                HeightRequest="50"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                BackgroundColor="#220A36"
+                VerticalOptions="CenterAndExpand"
+                Margin="0,-110,60,0"
+                Clicked="ImageButton_Clicked"
+            ></ImageButton>
+            <!-- GitHub -->
+            <!--..........................................................................-->
+            <!-- Google -->
+            <ImageButton 
+                Source="./resources/drawable/go.png"
+                HeightRequest="50"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                BackgroundColor="#220A36"
+                VerticalOptions="CenterAndExpand"
+                Margin="60,-275,0,0"
+               Clicked="ImageButton_Clicked_1"
+            ></ImageButton>
+            <!-- Google -->
+            <!--..........................................................................-->
+
+
+        </StackLayout>
+        <!--Cadastro-->
+    </ContentPage.Content>
+</ContentPage>

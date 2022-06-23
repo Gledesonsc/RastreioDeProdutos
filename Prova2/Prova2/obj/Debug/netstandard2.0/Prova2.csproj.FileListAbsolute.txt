@@ -1,0 +1,17 @@
+C:\Users\elias\source\repos\Prova2\Prova2\bin\Debug\netstandard2.0\Prova2.deps.json
+C:\Users\elias\source\repos\Prova2\Prova2\bin\Debug\netstandard2.0\Prova2.dll
+C:\Users\elias\source\repos\Prova2\Prova2\bin\Debug\netstandard2.0\Prova2.pdb
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.csproj.AssemblyReference.cache
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\PageCadastro.xaml.g.cs
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\PageRastreio.xaml.g.cs
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.AssemblyInfoInputs.cache
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.AssemblyInfo.cs
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.csproj.CoreCompileInputs.cache
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.dll
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\refint\Prova2.dll
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\Prova2.pdb
+C:\Users\elias\source\repos\Prova2\Prova2\obj\Debug\netstandard2.0\ref\Prova2.dll
